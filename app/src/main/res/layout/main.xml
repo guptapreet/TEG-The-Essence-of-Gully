@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".page0">
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="-200dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.005"
+    app:srcCompat="@drawable/background_intro" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="331dp"
+        android:layout_height="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        app:srcCompat="@drawable/onpage" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="265dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="196dp"
+        android:gravity="center"
+        android:hint="Enter Username"
+        android:inputType="text"
+        android:textColorHint="#393636"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </EditText>
+
+    <EditText
+    android:id="@+id/edittext"
+    android:layout_width="265dp"
+    android:layout_height="43dp"
+    android:layout_gravity="center"
+    android:layout_marginEnd="56dp"
+    android:layout_marginRight="56dp"
+    android:layout_marginBottom="120dp"
+    android:gravity="center"
+    android:hint="Enter Password"
+    android:inputType="text"
+    android:textColorHint="#393636"
+    android:textSize="18dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
+
+</EditText>
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="102dp"
+    android:layout_height="55dp"
+    android:layout_marginTop="28dp"
+    android:text="Login"
+    app:backgroundTint="#FF5722"
+    app:cornerRadius="20dp"
+    app:layout_constraintEnd_toEndOf="@+id/edittext"
+    app:layout_constraintHorizontal_bias="0.52"
+    app:layout_constraintStart_toStartOf="@+id/edittext"
+    app:layout_constraintTop_toBottomOf="@+id/edittext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
